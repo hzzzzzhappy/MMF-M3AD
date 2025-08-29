@@ -1,5 +1,5 @@
 # Easy3AD
-Hope you find this a useful baseline! The framework is simple and easy to extend for your own projects. This is the official implementation of the paper "Easy3AD: A Unified 3D Anomaly Detection Method Based on Group-level Feature Fusion Reconstruction for Diversity Constraint". Any questions, please email Hanzhe Liang via [2023362051@email.szu.edu.cn](2023362051@email.szu.edu.cn).
+Hope you find this a useful baseline! The framework is simple and easy to extend for your own projects. This is the official implementation of the paper "Easy3AD: A Unified 3D Anomaly Detection Method Based on Group-level Feature Fusion Reconstruction for Diversity Constraint". Any questions, please email Hanzhe Liang via [2023362051@email.szu.edu.cn](2023362051@email.szu.edu.cn) at Shenzhen University.
 
 Hanzhe Liang, Can Gao, Bingyang Guo, Linlin Shen, Jinbao Wang. 
 
