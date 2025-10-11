@@ -5,13 +5,9 @@ Hanzhe Liang, Can Gao, Bingyang Guo, Linlin Shen, Jinbao Wang.
 
 // Shenzhen University, Northeast University, China
 
-> Unified 3D anomaly detection using reconstruction paradigms has attracted widespread attention from the research community due to its superior performance. Existing 3D anomaly detection methods directly employ encoder-decoder architectures to process pre-trained features, which preserves the diversity of original features during reconstruction, leading to identity mapping problems and making it difficult to distinguish between normal and abnormal features effectively. Additionally, while multi-scale information provides richer feature representations, effectively utilizing this information while avoiding identity mapping issues remains a significant challenge. We propose a deliberately simplified model Easy3AD designed to constrain feature diversity, which consists of the following three components. First, Multi-Scale Feature Fusion (MFF) extracts common features across multiple scales from pre-trained representations. Next, Spatial Channel Feature Aggregation (SCFA) merges redundant features across channels to constrain feature diversity and address the identity mapping problem. Finally, the Local Pattern Reconstruction Module (LPRM) progressively refines features through coarse-to-fine reconstruction for effective anomaly detection.
-
 ![Pipeline](docs/pipeline.png)
 
-Unlike our previous MC3D-AD/C3D-AD work, we’re going for a more straightforward approach here. The idea is to reduce feature complexity by combining different feature channels at multiple scales, then use progressive reconstruction to spot anomalies. 
-
-## 1. Lucky Inspiration
+## 1. Short Look
 This work builds upon our previous work; for more inspiration, please refer to [C3D-AD](https://arxiv.org/pdf/2508.01311) and [MC3D-AD](https://arxiv.org/pdf/2505.01969). The experimental data in the paper are easy to reproduce, but you will typically need to spend several hours or more than ten hours on training. If you need our pre-trained checkpoints, please reach out to the author. Through simple modifications to this code, we achieved more stable results than those reported in the paper, thereby enabling you to replicate the findings easily.
 
 ## 2. Quick Start
