@@ -1,10 +1,4 @@
 # Easy3AD
-This is the official implementation of the paper "Easy3AD: A Simply Unified Reconstruction Method with Diversity Constraint Based on Group-level Feature Fusion for 3D Anomaly Detection".
-
-Hanzhe Liang, Can Gao, Bingyang Guo, Linlin Shen, Jinbao Wang. 
-
-// Shenzhen University, Northeast University, China
-
 ![Pipeline](docs/pipeline.png)
 
 ## 1. Short Look
