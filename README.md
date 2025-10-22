@@ -1,6 +1,4 @@
 # Easy3AD
-![Pipeline](docs/pipeline.png)
-
 ## 1. Short Look
 This work builds upon our previous work; for more inspiration, please refer to [C3D-AD](https://arxiv.org/pdf/2508.01311) and [MC3D-AD](https://arxiv.org/pdf/2505.01969). The experimental data in the paper are easy to reproduce, but you will typically need to spend several hours or more than ten hours on training. If you need our pre-trained checkpoints, please reach out to the author. Through simple modifications to this code, we achieved more stable results than those reported in the paper, thereby enabling you to replicate the findings easily.
 
