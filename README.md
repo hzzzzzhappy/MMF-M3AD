@@ -1,4 +1,4 @@
-# Easy3AD
+# MMF-M3AD
 ## 1. Short Look
 This work builds upon our previous work; for more inspiration, please refer to [C3D-AD](https://arxiv.org/pdf/2508.01311) and [MC3D-AD](https://arxiv.org/pdf/2505.01969). The experimental data in the paper are easy to reproduce, but you will typically need to spend several hours or more than ten hours on training. If you need our pre-trained checkpoints, please reach out to the author. Through simple modifications to this code, we achieved more stable results than those reported in the paper, thereby enabling you to replicate the findings easily.
 
@@ -6,8 +6,8 @@ This work builds upon our previous work; for more inspiration, please refer to [
 
 ### 2.1 Requirements
 ```bash
-conda create -n Easy3AD python=3.8
-conda activate Easy3AD
+conda create -n MMF-M3AD python=3.8
+conda activate MMF-M3AD
 pip install -r requirements.txt
 pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
