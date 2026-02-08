@@ -32,7 +32,7 @@ Set `dataset.data_dir` and `net.data_dir` in `./experiments/real3d/config.yaml` 
 Training/Evaluation:
 ```bash
 cd ./experiments/real3d/
-sh train.sh 1 0 # or sh eval.sh 1 0
+sh train_torch.sh 1 0 # or sh eval_torch.sh 1 0
 ```
 
 ### 2.4 Anomaly-ShapeNet
@@ -53,7 +53,7 @@ Set dataset paths in `./experiments/Anomaly-ShapeNet/config.yaml`.
 Training/Evaluation:
 ```bash
 cd ./experiments/Anomaly-ShapeNet/
-sh train.sh 1 0 # or sh eval.sh 1 0
+sh train_torch.sh 1 0 # or sh eval_torch.sh 1 0
 ```
 
 Update: We shared our [checkpoints](https://drive.google.com/file/d/10JYHvtNu3tnKm30BAGr0_uIJ6vm6_Njz/view?usp=sharing) and [visualization](https://drive.google.com/file/d/1ahqFnfAAhvkbVVJUfBRl75KqXQYPT_30/view?usp=sharing).
