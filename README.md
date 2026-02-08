@@ -56,6 +56,8 @@ cd ./experiments/Anomaly-ShapeNet/
 sh train.sh 1 0 # or sh eval.sh 1 0
 ```
 
+Update: We shared our [checkpoints](https://drive.google.com/file/d/10JYHvtNu3tnKm30BAGr0_uIJ6vm6_Njz/view?usp=sharing) and [visualization](https://drive.google.com/file/d/1ahqFnfAAhvkbVVJUfBRl75KqXQYPT_30/view?usp=sharing).
+
 ### 2.5 MulSen-AD
 
 Download the dataset from [here](https://huggingface.co/datasets/orgjy314159/MulSen_AD/tree/main) and process following [this guide](https://github.com/hzzzzzhappy/Processing-tools-for-the-MulSen_AD-dataset.git).
